@@ -1,4 +1,4 @@
-// Commit 2: Leer nombres y agregarlos mientras no sea 'salir'
+// Commit 3: Mostrar todos los nombres al final
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -21,5 +21,11 @@ public class ListaNombres {
         }
 
         sc.close();
+
+        // Mostrar la lista completa de nombres
+        System.out.println("\nLista de nombres ingresados:");
+        for (String n : nombres) {
+            System.out.println(n);
+        }
     }
 }
