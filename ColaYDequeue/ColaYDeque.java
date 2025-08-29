@@ -53,5 +53,25 @@ public class ColaYDeque {
         }
     }
 
+        public void eliminarDerecha() {
+        if (deque.isEmpty()) {
+            System.out.println("La deque está vacía.");
+        } else {
+            String eliminado = deque.removeLast();
+            System.out.println("Se eliminó por la derecha: " + eliminado);
+        }
+    }
+
+    public void mostrarDeque() {
+        if (deque.isEmpty()) {
+            System.out.println("La deque está vacía.");
+        } else {
+            System.out.println("Estado de la deque: " + deque);
+        }
+    }
+
+    
+    
+
 
 
