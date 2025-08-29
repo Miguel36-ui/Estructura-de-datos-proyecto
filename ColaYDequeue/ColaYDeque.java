@@ -1,3 +1,5 @@
+    //Cola y Doble cola -Miguel Tress y Christian Torres
+
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -69,7 +71,7 @@ public class ColaYDeque {
             System.out.println("Estado de la deque: " + deque);
         }
     }
-    
+
     // --- Menú interactivo ---
     public void menu() {
         Scanner sc = new Scanner(System.in);
@@ -135,15 +137,13 @@ public class ColaYDeque {
 
         sc.close();
     }
-
+    
     // --- Método principal ---
     public static void main(String[] args) {
         ColaYDeque app = new ColaYDeque();
         app.menu();
     }
 }
-
-    
     
 
 
