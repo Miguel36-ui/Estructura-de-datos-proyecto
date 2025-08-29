@@ -33,5 +33,25 @@ public class ColaYDeque {
         }
     }
 
+        // --- Métodos para Deque (doble cola) ---
+    public void insertarIzquierda(String elemento) {
+        deque.addFirst(elemento);
+        System.out.println("Se insertó por la izquierda: " + elemento);
+    }
+
+    public void insertarDerecha(String elemento) {
+        deque.addLast(elemento);
+        System.out.println("Se insertó por la derecha: " + elemento);
+    }
+
+    public void eliminarIzquierda() {
+        if (deque.isEmpty()) {
+            System.out.println("La deque está vacía.");
+        } else {
+            String eliminado = deque.removeFirst();
+            System.out.println("Se eliminó por la izquierda: " + eliminado);
+        }
+    }
+
 
 
