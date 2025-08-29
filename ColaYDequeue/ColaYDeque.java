@@ -15,7 +15,7 @@ public class ColaYDeque {
         cola.addLast(elemento);
         System.out.println("Se agregó a la cola: " + elemento);
     }
-    
+
         public void dequeue() {
         if (cola.isEmpty()) {
             System.out.println("La cola está vacía.");
@@ -24,4 +24,14 @@ public class ColaYDeque {
             System.out.println("Se eliminó de la cola: " + eliminado);
         }
     }
+
+      public void mostrarCola() {
+        if (cola.isEmpty()) {
+            System.out.println("La cola está vacía.");
+        } else {
+            System.out.println("Estado de la cola: " + cola);
+        }
+    }
+
+
 
