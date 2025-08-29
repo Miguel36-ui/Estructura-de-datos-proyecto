@@ -10,3 +10,9 @@ public class ColaYDeque {
         deque = new LinkedList<>();
     }
 
+        // --- Métodos para Cola FIFO ---
+    public void enqueue(String elemento) {
+        cola.addLast(elemento);
+        System.out.println("Se agregó a la cola: " + elemento);
+    }
+
